@@ -75,4 +75,9 @@ public class MemberController {
         return "Say hello to my little friend, Jenkins!";
     }
 
+    @GetMapping("/updateElement")
+    public String Update(){
+        return " Element Updated";
+    }
+
 }
